@@ -11,4 +11,4 @@ This README file lists each file with a short description of the task it is perf
    		Long format
 		with user and group IDs displayed numerically
      		And hidden files (starting with .)
-7.
+7. 6-firstdirectory --  a script that creates a directory named my_first_directory in the /tmp/ directory
