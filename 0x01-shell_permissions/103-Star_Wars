@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./"Star Wars IV" -type f -exec vlc {} +
+telnet towel.blinkenlights.nl
