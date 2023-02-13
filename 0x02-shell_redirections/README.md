@@ -21,6 +21,12 @@ This is a README for the Shell Redirections projects. Each number denotes a sing
 
 11. 10-no_more_js -- a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 
-12. 11-directories -- Write a script that counts the number of directories and sub-directories in the current directory. The current and parent directories should not be taken into account. Hidden directories should be counted.
+12. 11-directories -- a script that counts the number of directories and sub-directories in the current directory. The current and parent directories should not be taken into account. Hidden directories should be counted.
 
-13. 
+13. 12-newest_files -- Create a script that displays the 10 newest files in the current directory.
+
+Requirements:
+ - One file per line
+ - Sorted from the newest to the oldest
+
+14. 
