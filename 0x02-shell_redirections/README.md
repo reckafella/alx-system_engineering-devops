@@ -3,3 +3,6 @@ This is a README for the Shell Redirections projects. Each number denotes a sing
 
 2. 1-confused_smiley --  a script that displays a confused smiley "(Ôo)'
 
+3. 2-hellofile -- a script that displays the content of the /etc/passwd file.
+
+4. 
