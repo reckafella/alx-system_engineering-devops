@@ -6,3 +6,5 @@ This is a README for the Shell Redirections projects. Each number denotes a sing
 3. 2-hellofile -- a script that displays the content of the /etc/passwd file.
 
 4. 4-lastlines -- a script that displays the last 10 lines of /etc/passwd.
+
+5. 5-firstlines -- a script that displays the first 10 lines of /etc/passwd
