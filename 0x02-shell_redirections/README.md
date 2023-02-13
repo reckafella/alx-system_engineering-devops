@@ -53,3 +53,8 @@ Requirements:
 
 23. 22-users_and_homes -- a script that displays all users and their home directories, sorted by users. Based on the /etc/passwd file
 
+---- ADVANCED ----
+
+24. 100-empty_casks -- a script that finds and lists empty files and directories in the current and sub-directories. Hidden files are also listed.
+
+25. 
