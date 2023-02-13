@@ -43,3 +43,13 @@ Requirements:
 
 18. 17-hidethisword -- a script that displays all lines in the file /etc/passwd that do not contain the pattern 'bin'.
 
+19. 
+
+
+20. 
+
+21.  20-hiago -- a script that removes all letters c and C from input
+
+22. 
+
+23. 
