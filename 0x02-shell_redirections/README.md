@@ -5,10 +5,16 @@ This is a README for the Shell Redirections projects. Each number denotes a sing
 
 3. 2-hellofile -- a script that displays the content of the /etc/passwd file.
 
-4. 4-lastlines -- a script that displays the last 10 lines of /etc/passwd.
+4. 3-twofiles --  a script that displays the content of two files: /etc/passwd and /etc/hosts
 
-5. 5-firstlines -- a script that displays the first 10 lines of /etc/passwd
+5. 4-lastlines -- a script that displays the last 10 lines of /etc/passwd.
 
-6. 6-third_line -- a script that displays the third line in the file "iacta". The file is in the current working directory.
+6. 5-firstlines -- a script that displays the first 10 lines of /etc/passwd
 
-7. 7-file -- a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+7. 6-third_line -- a script that displays the third line in the file "iacta". The file is in the current working directory.
+
+8. 7-file -- a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+
+9. 8-cwd_state -- a shell script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.
+
+10. 
