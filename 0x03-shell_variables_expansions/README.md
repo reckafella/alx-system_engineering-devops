@@ -11,4 +11,6 @@ Project: 0x03 - Shell, init files, variables, and Expansions
 
  5. 4-global_variables -- a script that lists environment variables.
 
- 6. 
+ 6. 5-local_variables -- a script that lists all local variables and environment variables, and functions.
+
+ 7. 6-
