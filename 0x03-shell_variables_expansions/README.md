@@ -9,4 +9,6 @@ Project: 0x03 - Shell, init files, variables, and Expansions
 
  4. 3-paths -- a script that counts the number of directories in the PATH.
 
- 5. 
+ 5. 4-global_variables -- a script that lists environment variables.
+
+ 6. 
