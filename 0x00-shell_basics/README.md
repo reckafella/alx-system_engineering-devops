@@ -2,6 +2,7 @@ In this project, we have scripts that perform various shell tasks.
 
 This README file lists each file with a short description of the task it is performing.
 
+## Mandatory -- Basic Projects
 1. 0-current_working_directory -- prints the current working directory
 
 2. 1-listit -- Displays the contents of the current directory
@@ -36,6 +37,7 @@ This README file lists each file with a short description of the task it is perf
 
 15. 14-copy_html -- Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension .html.
 
+## Optional - Advanced Projects
 16. 100-lets_move -- Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u. You can assume that the directory /tmp/u will exist when we will run your script.
 
 17. 101-clean_emacs -- Create a script that deletes all files in the current working directory that end with the character ~.
@@ -43,3 +45,11 @@ This README file lists each file with a short description of the task it is perf
 18. 102-tree -- Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 You are only allowed to use two spaces (and lines) in your script, not more.
 
+19. 103-commas -- Write a command that lists all the files and directories of the current directory, separated by commas (,).
+
+- Directory names should end with a slash (/)
+- Files and directories starting with a dot (.) should be listed
+- The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+- Only digits and letters are used to sort; Digits should come first
+- You can assume that all the files we will test with will have at least one letter or one digit
+- The listing should end with a new line
