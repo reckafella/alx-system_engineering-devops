@@ -4,7 +4,7 @@
 counter=0
 Best="Best School"
 
-until ((counter == 9));
+until ((counter == 10));
 do
 	echo "$Best"
 	((counter++))
