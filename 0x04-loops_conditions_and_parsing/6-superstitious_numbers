@@ -14,16 +14,16 @@ while ((counter <= 20));
 do
 	echo "$counter";
 
-	if ((counter == 4))
-	then
-		echo "$China";
-	elif ((counter == 9))
-	then
-		echo "$Japan";
-	elif ((counter == 17))
-	then
-		echo "$Italy";
-	fi
+	case $counter in 4)
+		echo "$China"
+	;;
+	9)
+		echo "$Japan"
+	;;
+	17)
+		echo "$Italy"
+	;;
+	esac
 
 	((counter++))
 done;
