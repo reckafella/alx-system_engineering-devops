@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# The script displays "Best School" 10 times
+
+counter=1
+Best="Best School"
+
+while ((counter <= 10));
+do
+	echo "$Best"
+
+	if ((counter == 9))
+	then
+		echo "Hi"
+	fi
+
+	((counter++))
+done
