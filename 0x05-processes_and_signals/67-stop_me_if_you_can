@@ -3,6 +3,6 @@
 # Requirements:
 # ** do not use kill or killall
 
-comm=""7-highlander
+comm="7-highlander"
 
 pkill -f "$comm"
