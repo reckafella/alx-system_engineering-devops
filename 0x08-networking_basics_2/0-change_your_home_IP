@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# A Bash script that configures an Ubuntu server with the below requirements.
+# Requirements:
+#
+# localhost resolves to 127.0.0.2
+# facebook.com resolves to 8.8.8.8.
+###################################
+
+
+
+lh_ip="127.0.0.2"
+lh="localhost"
+fb="facebook.com"
+fb_ip="8.8.8.8"
+
+# fb
+sed -E -i "/^0.*\s+$fb\b/ s/.*/$fb_ip $fb/" /etc/hosts
+sed -E -i "/^127.*\s+$fb\b/ s/.*/$fb_ip $fb/" /etc/hosts
+
+#lh
+sed -E -i "/^0.*\s+$lh\b/ s/.*/$lh_ip $lh/" /etc/hosts
+sed -E -i "/^127.*\s+$lh\b/ s/.*/$lh_ip $lh/" /etc/hosts

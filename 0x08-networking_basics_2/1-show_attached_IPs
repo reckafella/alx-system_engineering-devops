@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Bash script that displays all active IPv4 IPs on the machine it’s executed on
+
+ips="$(ip -4 address show | grep inet | awk '{print $2}' | cut -d '/' -f1)"
+
+echo "$ips"
