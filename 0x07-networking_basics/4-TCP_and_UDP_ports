@@ -4,6 +4,4 @@
 # * Script should show PID and name of the program to which each
 # * socket belongs
 
-script="$(netstat -lp)"
-
-echo "$script"
+netstat -lp
