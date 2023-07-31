@@ -1,6 +1,6 @@
 ![Distributed Web Infrastructure](./images/1-distributed_web_infrastructure.jpg)
 
-[View Board](https://drive.google.com/file/d/18DXk3AZRh2hdB6j7q-52LnxqfYc64C9G/view?usp=sharing)
+# **[View Board](https://drive.google.com/file/d/18DXk3AZRh2hdB6j7q-52LnxqfYc64C9G/view?usp=sharing)**
 
 # **Description**<br>
 This is a distributed infrastructure for a three server web infrastructure that hosts the website www.foobar.com.
@@ -16,7 +16,6 @@ It has:
 > # **Specifics about this infrastructure:**
 > 1. **For every additional element, why you are adding it:**
 >     1. This design comprises two servers, which ensures higher reliability and uptime for the application. In the event that one server fails, users can still access the web and application servers through the second server.
->
 >     2. The design also incorporates the HAproxy load balancer. Upon receiving requests from users, HAproxy determines which server is available and then routes the requests to that server.
 >     3. The database is hosted on its own server, and then the two servers have a connection to it. The servers create a read-only replica to ensure faster read operations. This also reduces the load on the primary database.
 >

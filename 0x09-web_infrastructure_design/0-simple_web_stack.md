@@ -1,4 +1,4 @@
-![Simple Web Infrastructure](./images/0-simple_web_stack.png)
+![Simple Web Infrastructure](./images/0-simple_web_stack.jpg)
 [View Board on Diagrams.net](https://drive.google.com/file/d/1xjl3rLaPSuaOhVzVbW6NcnaqZRgKat6V/view)
 
 # **Description**<br>
@@ -10,6 +10,7 @@ This is a one server web infrastructure that hosts the website that is reachable
 * 1 database (MySQL)
 * 1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
 
+# **Specifics about this Infrastructure**<br>
 1. **What is a server?:**
 A server is a hardware or software device that accepts and responds to requests (made by clients) over a network.
 
