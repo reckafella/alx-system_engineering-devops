@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# 
+# Your machine has an SSH configuration file for the local SSH client, let’s configure it to our needs so that you can connect to a server without typing a password. 
 
 ssh-copy-id -i ~/.ssh/school ubuntu@18.206.233.207
