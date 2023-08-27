@@ -5,7 +5,7 @@ file {$doc_root:
   ensure => 'directory'
 }
 
-file {'/tmp/school':
+file {"${doc_root}/school":
   ensure  => 'present',
   owner   => 'www-data',
   group   => 'www-data',
