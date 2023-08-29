@@ -5,11 +5,11 @@ sudo apt install nginx -y
 if [[ -f "/var/www/html/index.html" ]]; then
 	sudo chown -R "$USER":"$USER" /var/www/html
 	sudo chmod -R 755 /var/www
-	sudo echo "Hello World!" | sudo tee /var/www/html/index.html > /dev/null
+	sudo echo "Hello World!" | sudo tee /var/www/html/index.html
 fi
 if [[ -f "/var/www/html/index.nginx-debian.html" ]]; then
 	sudo chown -R "$USER":"$USER" /var/www/html
 	sudo chmod -R 755 /var/www
-	sudo echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html > /dev/null
+	sudo echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html
 fi
 sudo service nginx restart
