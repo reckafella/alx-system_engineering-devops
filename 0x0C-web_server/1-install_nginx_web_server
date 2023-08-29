@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# A script to install Nginx on web-01 server
+
+sudo apt install nginx -y
+if [[ -f "/var/www/html/index.html" ]]; then
+	sudo chown -R "$USER":"$USER" /var/www/html
+	sudo chmod -R 755 /var/www
+	sudo echo "Hello World!" | sudo tee /var/www/html/index.html > /dev/null
+fi
+if [[ -f "/var/www/html/index.nginx-debian.html" ]]; then
+	sudo chown -R "$USER":"$USER" /var/www/html
+	sudo chmod -R 755 /var/www
+	sudo echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html > /dev/null
+fi
+sudo service nginx restart
