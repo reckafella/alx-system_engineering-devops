@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Resolve issues with server on docker
+sudo service apache2 start
