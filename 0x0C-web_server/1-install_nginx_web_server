@@ -6,4 +6,4 @@ sudo service nginx start
 sudo chown -R "$USER":"$USER" /var/www/html
 echo "Hello World!" > /var/www/html/index.html
 sudo service nginx restart
-sudo url localhost
+sudo curl localhost
