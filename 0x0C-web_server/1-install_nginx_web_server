@@ -3,7 +3,7 @@
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo service nginx start
-touch /var/www/html/index.html
-sudo chmod 666 /var/www/html/*.html
+sudo chown -R "$USER":"$USER" /var/www/html
 echo "Hello World!" > /var/www/html/index.html
-sudo nginx -s reload
+sudo service nginx restart
+sudo url localhost
