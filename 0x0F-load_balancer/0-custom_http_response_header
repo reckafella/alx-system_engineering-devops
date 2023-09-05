@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # add X-Served-By Custom header to Nginx
 
-sed -i '/http {/a \\t add_header X-Served-By $host;' /etc/nginx/nginx.conf
+sed -i '/http {/a \\tadd_header X-Served-By $hostname;' /etc/nginx/nginx.conf
 nginx -t
 service nginx restart
