@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Configure Nginx server to listen on port 80 / stop nginx
-sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart
-
 kill -s SIGKILL "$(cat /var/run/nginx.pid)"
