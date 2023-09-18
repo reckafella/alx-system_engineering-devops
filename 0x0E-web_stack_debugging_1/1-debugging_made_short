@@ -2,4 +2,5 @@
 # Configure Nginx server to listen on port 80 / stop nginx
 sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
 service nginx restart
-pkill -F /var/run/nginx.pid
+
+kill -s SIGKILL "$(cat /var/run/nginx.pid)"
