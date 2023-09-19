@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # run nginx as user 'nginx' on port 8080
-command="nginx"
-sudo -u nginx "$command"
+sed -i "s/^#*user www-data;/user nginx;/" /etc/nginx/nginx.conf
+service nginx restart
