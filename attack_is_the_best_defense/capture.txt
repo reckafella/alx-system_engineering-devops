@@ -1,0 +1,756 @@
+17:23:58.918340 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [P.], seq 4218832463:4218832533, ack 1824454965, win 501, options [nop,nop,TS val 3388259712 ecr 914256203], length 70
+17:23:59.200921 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [.], ack 70, win 69, options [nop,nop,TS val 914280138 ecr 3388259712], length 0
+17:23:59.303695 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [P.], seq 1:73, ack 70, win 69, options [nop,nop,TS val 914280315 ecr 3388259712], length 72
+17:23:59.303831 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [.], ack 73, win 501, options [nop,nop,TS val 3388260098 ecr 914280315], length 0
+17:23:59.544490 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1499659518:1499659632, ack 1500505072, win 501, options [nop,nop,TS val 1603644092 ecr 4108376639], length 114
+17:23:59.544749 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 114:160, ack 1, win 501, options [nop,nop,TS val 1603644092 ecr 4108376639], length 46
+17:23:59.544890 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 160:573, ack 1, win 501, options [nop,nop,TS val 1603644092 ecr 4108376639], length 413
+17:23:59.712887 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 114, win 27, options [nop,nop,TS val 4108406737 ecr 1603644092], length 0
+17:23:59.712986 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 160, win 27, options [nop,nop,TS val 4108406737 ecr 1603644092], length 0
+17:23:59.713023 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 573, win 27, options [nop,nop,TS val 4108406738 ecr 1603644092], length 0
+17:23:59.872241 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 1:47, ack 573, win 27, options [nop,nop,TS val 4108407012 ecr 1603644092], length 46
+17:23:59.898367 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 47:623, ack 573, win 27, options [nop,nop,TS val 4108407030 ecr 1603644092], length 576
+17:23:59.898471 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [.], ack 623, win 501, options [nop,nop,TS val 1603644446 ecr 4108407012], length 0
+17:23:59.898580 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 623:661, ack 573, win 27, options [nop,nop,TS val 4108407030 ecr 1603644092], length 38
+17:23:59.915211 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 573:615, ack 661, win 501, options [nop,nop,TS val 1603644462 ecr 4108407030], length 42
+17:23:59.953749 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 615, win 27, options [nop,nop,TS val 4108407090 ecr 1603644462], length 0
+17:24:01.997646 IP radiant.36728 > _gateway.domain: 27529+ A? smtp.sendgrid.net. (35)
+17:24:01.998010 IP radiant.46915 > _gateway.domain: 54959+ AAAA? smtp.sendgrid.net. (35)
+17:24:02.188776 IP _gateway.domain > radiant.36728: 27529 4/0/0 A 52.57.139.126, A 18.197.194.208, A 108.128.229.184, A 54.228.39.88 (99)
+17:24:02.192132 IP _gateway.domain > radiant.46915: 54959 0/1/0 (95)
+17:24:02.193218 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [S], seq 1319100985, win 64240, options [mss 1460,sackOK,TS val 2918092582 ecr 0,nop,wscale 7], length 0
+17:24:02.232324 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [S.], seq 4105709277, ack 1319100986, win 65535, options [mss 1400,sackOK,TS val 2564331084 ecr 2918092582,nop,wscale 10], length 0
+17:24:02.232490 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [.], ack 1, win 502, options [nop,nop,TS val 2918092622 ecr 2564331084], length 0
+17:24:02.232937 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [P.], seq 1:37, ack 1, win 502, options [nop,nop,TS val 2918092622 ecr 2564331084], length 36
+17:24:02.313476 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [.], ack 37, win 64, options [nop,nop,TS val 2564331163 ecr 2918092622], length 0
+17:24:02.519284 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [P.], seq 1:48, ack 37, win 64, options [nop,nop,TS val 2564331371 ecr 2918092622], length 47
+17:24:02.519414 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [.], ack 48, win 502, options [nop,nop,TS val 2918092909 ecr 2564331371], length 0
+17:24:02.522626 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [P.], seq 48:178, ack 37, win 64, options [nop,nop,TS val 2564331374 ecr 2918092622], length 130
+17:24:02.522730 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [.], ack 178, win 501, options [nop,nop,TS val 2918092912 ecr 2564331374], length 0
+17:24:03.460602 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [P.], seq 37:49, ack 178, win 501, options [nop,nop,TS val 2918093850 ecr 2564331374], length 12
+17:24:03.513677 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [.], ack 49, win 64, options [nop,nop,TS val 2564332362 ecr 2918093850], length 0
+17:24:03.661269 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [P.], seq 178:196, ack 49, win 64, options [nop,nop,TS val 2564332506 ecr 2918093850], length 18
+17:24:03.661372 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [.], ack 196, win 501, options [nop,nop,TS val 2918094051 ecr 2564332506], length 0
+17:24:03.834500 IP radiant.45932 > 104.17.71.206.https: Flags [.], ack 2833473293, win 1032, options [nop,nop,TS val 2142326070 ecr 2331998793], length 0
+17:24:03.873626 IP 104.17.71.206.https > radiant.45932: Flags [.], ack 1, win 67, options [nop,nop,TS val 2332043834 ecr 2142008302], length 0
+17:24:05.463468 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [P.], seq 49:63, ack 196, win 501, options [nop,nop,TS val 2918095853 ecr 2564332506], length 14
+17:24:05.513649 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [.], ack 63, win 64, options [nop,nop,TS val 2564334363 ecr 2918095853], length 0
+17:24:05.652169 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [P.], seq 196:214, ack 63, win 64, options [nop,nop,TS val 2564334505 ecr 2918095853], length 18
+17:24:05.652278 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [.], ack 214, win 501, options [nop,nop,TS val 2918096041 ecr 2564334505], length 0
+17:24:07.290435 ARP, Request who-has radiant tell _gateway, length 28
+17:24:07.290480 ARP, Reply radiant is-at 68:14:01:02:bd:27 (oui Unknown), length 28
+17:24:07.467243 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [P.], seq 63:85, ack 214, win 501, options [nop,nop,TS val 2918097856 ecr 2564334505], length 22
+17:24:07.718389 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [P.], seq 63:85, ack 214, win 501, options [nop,nop,TS val 2918098108 ecr 2564334505], length 22
+17:24:07.773634 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [.], ack 85, win 64, options [nop,nop,TS val 2564336362 ecr 2918097856], length 0
+17:24:07.813569 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [.], ack 85, win 64, options [nop,nop,TS val 2564336622 ecr 2918098108,nop,nop,sack 1 {63:85}], length 0
+17:24:08.024703 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [P.], seq 214:266, ack 85, win 64, options [nop,nop,TS val 2564336877 ecr 2918098108], length 52
+17:24:08.024833 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [.], ack 266, win 501, options [nop,nop,TS val 2918098414 ecr 2564336877], length 0
+17:24:08.024918 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [F.], seq 266, ack 85, win 64, options [nop,nop,TS val 2564336877 ecr 2918098108], length 0
+17:24:08.025025 IP radiant.54724 > ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission: Flags [F.], seq 85, ack 267, win 501, options [nop,nop,TS val 2918098414 ecr 2564336877], length 0
+17:24:08.083683 IP ec2-52-57-139-126.eu-central-1.compute.amazonaws.com.submission > radiant.54724: Flags [.], ack 86, win 64, options [nop,nop,TS val 2564336930 ecr 2918098414], length 0
+17:24:20.910481 IP radiant.33581 > _gateway.domain: 2811+ AAAA? smtp.sendgrid.net. (35)
+17:24:20.926084 IP _gateway.domain > radiant.33581: 2811 0/0/0 (35)
+17:24:20.927240 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [S], seq 2690228341, win 64240, options [mss 1460,sackOK,TS val 1977381800 ecr 0,nop,wscale 7], length 0
+17:24:21.123622 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [S.], seq 530424490, ack 2690228342, win 65535, options [mss 1400,sackOK,TS val 4267123119 ecr 1977381800,nop,wscale 10], length 0
+17:24:21.123812 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 1, win 502, options [nop,nop,TS val 1977381997 ecr 4267123119], length 0
+17:24:21.124188 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [P.], seq 1:37, ack 1, win 502, options [nop,nop,TS val 1977381997 ecr 4267123119], length 36
+17:24:21.225817 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [.], ack 37, win 64, options [nop,nop,TS val 4267123237 ecr 1977381997], length 0
+17:24:21.390206 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [P.], seq 1:48, ack 37, win 64, options [nop,nop,TS val 4267123425 ecr 1977381997], length 47
+17:24:21.390314 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 48, win 502, options [nop,nop,TS val 1977382263 ecr 4267123425], length 0
+17:24:21.393879 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [P.], seq 48:178, ack 37, win 64, options [nop,nop,TS val 4267123426 ecr 1977381997], length 130
+17:24:21.393982 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 178, win 501, options [nop,nop,TS val 1977382267 ecr 4267123426], length 0
+17:24:22.491817 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [P.], seq 37:49, ack 178, win 501, options [nop,nop,TS val 1977383365 ecr 4267123426], length 12
+17:24:22.543638 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [.], ack 49, win 64, options [nop,nop,TS val 4267124577 ecr 1977383365], length 0
+17:24:22.695187 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [P.], seq 178:196, ack 49, win 64, options [nop,nop,TS val 4267124730 ecr 1977383365], length 18
+17:24:22.695293 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 196, win 501, options [nop,nop,TS val 1977383568 ecr 4267124730], length 0
+17:24:24.495432 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [P.], seq 49:63, ack 196, win 501, options [nop,nop,TS val 1977385369 ecr 4267124730], length 14
+17:24:24.543550 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [.], ack 63, win 64, options [nop,nop,TS val 4267126577 ecr 1977385369], length 0
+17:24:24.810060 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [P.], seq 196:214, ack 63, win 64, options [nop,nop,TS val 4267126730 ecr 1977385369], length 18
+17:24:24.810161 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 214, win 501, options [nop,nop,TS val 1977385683 ecr 4267126730], length 0
+17:24:26.499055 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [P.], seq 63:85, ack 214, win 501, options [nop,nop,TS val 1977387372 ecr 4267126730], length 22
+17:24:26.653323 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [.], ack 85, win 64, options [nop,nop,TS val 4267128576 ecr 1977387372], length 0
+17:24:26.858150 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [P.], seq 214:266, ack 85, win 64, options [nop,nop,TS val 4267128818 ecr 1977387372], length 52
+17:24:26.858229 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [.], ack 266, win 501, options [nop,nop,TS val 1977387731 ecr 4267128818], length 0
+17:24:26.858333 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [F.], seq 266, ack 85, win 64, options [nop,nop,TS val 4267128818 ecr 1977387372], length 0
+17:24:26.858449 IP radiant.56086 > ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission: Flags [F.], seq 85, ack 267, win 501, options [nop,nop,TS val 1977387732 ecr 4267128818], length 0
+17:24:26.903529 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [.], ack 86, win 64, options [nop,nop,TS val 4267128936 ecr 1977387732], length 0
+17:24:27.303291 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [R.], seq 1938782313, ack 83054897, win 66, length 0
+17:24:27.703538 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [R.], seq 1938782313, ack 83054897, win 66, length 0
+17:24:27.916060 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [P.], seq 70:140, ack 73, win 501, options [nop,nop,TS val 3388288710 ecr 914280315], length 70
+17:24:27.964118 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [.], ack 140, win 69, options [nop,nop,TS val 914309008 ecr 3388288710], length 0
+17:24:28.138191 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [P.], seq 73:145, ack 140, win 69, options [nop,nop,TS val 914309185 ecr 3388288710], length 72
+17:24:28.138303 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [.], ack 145, win 501, options [nop,nop,TS val 3388288932 ecr 914309185], length 0
+17:24:28.534140 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [R.], seq 1938782313, ack 83054897, win 66, length 0
+17:24:29.993765 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 615:729, ack 661, win 501, options [nop,nop,TS val 1603674541 ecr 4108407090], length 114
+17:24:29.994015 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 729:775, ack 661, win 501, options [nop,nop,TS val 1603674541 ecr 4108407090], length 46
+17:24:29.994156 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 775:1188, ack 661, win 501, options [nop,nop,TS val 1603674541 ecr 4108407090], length 413
+17:24:30.043835 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 729, win 27, options [nop,nop,TS val 4108437181 ecr 1603674541], length 0
+17:24:30.057428 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 775, win 27, options [nop,nop,TS val 4108437187 ecr 1603674541], length 0
+17:24:30.057524 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 1188, win 27, options [nop,nop,TS val 4108437188 ecr 1603674541], length 0
+17:24:30.135130 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [R.], seq 1938782313, ack 83054897, win 66, length 0
+17:24:30.323379 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 661:707, ack 1188, win 27, options [nop,nop,TS val 4108437463 ecr 1603674541], length 46
+17:24:30.346391 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 707:1284, ack 1188, win 27, options [nop,nop,TS val 4108437477 ecr 1603674541], length 577
+17:24:30.346484 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 1284:1322, ack 1188, win 27, options [nop,nop,TS val 4108437478 ecr 1603674541], length 38
+17:24:30.346671 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1322, win 501, options [nop,nop,TS val 1603674894 ecr 4108437463], length 0
+17:24:30.352055 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1188:1230, ack 1322, win 501, options [nop,nop,TS val 1603674899 ecr 4108437463], length 42
+17:24:30.403646 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 1230, win 27, options [nop,nop,TS val 4108437540 ecr 1603674899], length 0
+17:24:33.411588 IP ec2-108-128-229-184.eu-west-1.compute.amazonaws.com.submission > radiant.56086: Flags [R.], seq 1938782313, ack 83054897, win 66, length 0
+17:24:36.357768 IP radiant.40112 > _gateway.domain: 45817+ AAAA? connectivity-check.ubuntu.com. (47)
+17:24:36.587046 IP _gateway.domain > radiant.40112: 45817 6/0/0 AAAA 2620:2d:4000:1::23, AAAA 2620:2d:4000:1::2a, AAAA 2001:67c:1562::24, AAAA 2620:2d:4000:1::22, AAAA 2001:67c:1562::23, AAAA 2620:2d:4000:1::2b (215)
+17:24:48.890410 IP radiant.45932 > 104.17.71.206.https: Flags [.], ack 1, win 1032, options [nop,nop,TS val 2142371126 ecr 2332043834], length 0
+17:24:49.089733 IP 104.17.71.206.https > radiant.45932: Flags [.], ack 1, win 67, options [nop,nop,TS val 2332089024 ecr 2142008302], length 0
+17:24:49.922642 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [P.], seq 140:210, ack 145, win 501, options [nop,nop,TS val 3388310717 ecr 914309185], length 70
+17:24:50.011240 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [.], ack 210, win 69, options [nop,nop,TS val 914331008 ecr 3388310717], length 0
+17:24:50.216063 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [P.], seq 145:217, ack 210, win 69, options [nop,nop,TS val 914331184 ecr 3388310717], length 72
+17:24:50.216176 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [.], ack 217, win 501, options [nop,nop,TS val 3388311010 ecr 914331184], length 0
+17:25:00.398487 IP radiant.41460 > _gateway.domain: 17413+ A? chat.openai.com. (33)
+17:25:00.604887 IP radiant.46554 > _gateway.domain: 43613+ Type65? chat.openai.com. (33)
+17:25:00.606939 IP _gateway.domain > radiant.41460: 17413 3/0/0 CNAME chat.openai.com.cdn.cloudflare.net., A 104.18.37.228, A 172.64.150.28 (113)
+17:25:00.667324 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1230:1344, ack 1322, win 501, options [nop,nop,TS val 1603705214 ecr 4108437540], length 114
+17:25:00.667554 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1344:1390, ack 1322, win 501, options [nop,nop,TS val 1603705215 ecr 4108437540], length 46
+17:25:00.667668 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1390:1803, ack 1322, win 501, options [nop,nop,TS val 1603705215 ecr 4108437540], length 413
+17:25:00.669977 IP _gateway.domain > radiant.46554: 43613 2/0/0 CNAME chat.openai.com.cdn.cloudflare.net., Type65 (154)
+17:25:00.686503 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:00.687443 IP radiant.47001 > 104.18.37.228.https: UDP, length 78
+17:25:00.713508 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 1344, win 27, options [nop,nop,TS val 4108467848 ecr 1603705214], length 0
+17:25:00.723700 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 1390, win 27, options [nop,nop,TS val 4108467855 ecr 1603705215], length 0
+17:25:00.723775 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 1803, win 27, options [nop,nop,TS val 4108467855 ecr 1603705215], length 0
+17:25:00.751754 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:00.753467 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:00.758358 IP radiant.47001 > 104.18.37.228.https: UDP, length 85
+17:25:00.759357 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:00.759522 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:00.759639 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:00.759834 IP radiant.47001 > 104.18.37.228.https: UDP, length 1190
+17:25:00.760037 IP radiant.47001 > 104.18.37.228.https: UDP, length 55
+17:25:00.760140 IP radiant.47001 > 104.18.37.228.https: UDP, length 468
+17:25:00.800893 IP 104.18.37.228.https > radiant.47001: UDP, length 48
+17:25:00.800963 IP 104.18.37.228.https > radiant.47001: UDP, length 24
+17:25:00.800979 IP 104.18.37.228.https > radiant.47001: UDP, length 24
+17:25:00.801580 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:00.804126 IP 104.18.37.228.https > radiant.47001: UDP, length 49
+17:25:00.804633 IP radiant.47001 > 104.18.37.228.https: UDP, length 47
+17:25:00.808787 IP 104.18.37.228.https > radiant.47001: UDP, length 23
+17:25:00.808855 IP 104.18.37.228.https > radiant.47001: UDP, length 23
+17:25:00.809335 IP radiant.47001 > 104.18.37.228.https: UDP, length 82
+17:25:00.811973 IP 104.18.37.228.https > radiant.47001: UDP, length 23
+17:25:00.851691 IP 104.18.37.228.https > radiant.47001: UDP, length 28
+17:25:00.858097 IP 104.18.37.228.https > radiant.47001: UDP, length 23
+17:25:00.883141 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:00.999124 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 1322:1368, ack 1803, win 27, options [nop,nop,TS val 4108468130 ecr 1603705215], length 46
+17:25:01.005451 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 1368:1943, ack 1803, win 27, options [nop,nop,TS val 4108468144 ecr 1603705215], length 575
+17:25:01.005521 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [P.], seq 1943:1981, ack 1803, win 27, options [nop,nop,TS val 4108468144 ecr 1603705215], length 38
+17:25:01.005836 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1981, win 501, options [nop,nop,TS val 1603705553 ecr 4108468130], length 0
+17:25:01.010218 IP radiant.35306 > ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1803:1845, ack 1981, win 501, options [nop,nop,TS val 1603705557 ecr 4108468130], length 42
+17:25:01.057081 IP ec2-54-186-23-143.us-west-2.compute.amazonaws.com.https > radiant.35306: Flags [.], ack 1845, win 27, options [nop,nop,TS val 4108468188 ecr 1603705557], length 0
+17:25:01.609859 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:01.610030 IP 104.18.37.228.https > radiant.47001: UDP, length 744
+17:25:01.610046 IP 104.18.37.228.https > radiant.47001: UDP, length 559
+17:25:01.610878 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:01.642870 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:01.646260 IP 104.18.37.228.https > radiant.47001: UDP, length 563
+17:25:01.675103 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:01.698407 IP 104.18.37.228.https > radiant.47001: UDP, length 567
+17:25:01.712250 IP 104.18.37.228.https > radiant.47001: UDP, length 572
+17:25:01.712669 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:01.734166 IP 104.18.37.228.https > radiant.47001: UDP, length 582
+17:25:01.763222 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:01.773095 IP 104.18.37.228.https > radiant.47001: UDP, length 590
+17:25:01.803018 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:01.820138 IP 104.18.37.228.https > radiant.47001: UDP, length 598
+17:25:01.850935 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:01.876154 IP 104.18.37.228.https > radiant.47001: UDP, length 599
+17:25:01.906950 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:01.931136 IP 104.18.37.228.https > radiant.47001: UDP, length 603
+17:25:01.963722 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:01.983744 IP 104.18.37.228.https > radiant.47001: UDP, length 607
+17:25:02.011133 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:02.083060 IP 104.18.37.228.https > radiant.47001: UDP, length 614
+17:25:02.101360 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.101437 IP 104.18.37.228.https > radiant.47001: UDP, length 49
+17:25:02.103159 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.144014 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.144072 IP 104.18.37.228.https > radiant.47001: UDP, length 73
+17:25:02.213686 IP 104.18.37.228.https > radiant.47001: UDP, length 644
+17:25:02.244130 IP 104.18.37.228.https > radiant.47001: UDP, length 652
+17:25:02.244242 IP 104.18.37.228.https > radiant.47001: UDP, length 653
+17:25:02.244258 IP 104.18.37.228.https > radiant.47001: UDP, length 657
+17:25:02.283096 IP 104.18.37.228.https > radiant.47001: UDP, length 661
+17:25:02.286912 IP 104.18.37.228.https > radiant.47001: UDP, length 664
+17:25:02.299094 IP 104.18.37.228.https > radiant.47001: UDP, length 669
+17:25:02.319065 IP 104.18.37.228.https > radiant.47001: UDP, length 672
+17:25:02.339132 IP 104.18.37.228.https > radiant.47001: UDP, length 681
+17:25:02.366164 IP 104.18.37.228.https > radiant.47001: UDP, length 683
+17:25:02.411126 IP 104.18.37.228.https > radiant.47001: UDP, length 689
+17:25:02.422127 IP 104.18.37.228.https > radiant.47001: UDP, length 691
+17:25:02.455236 IP 104.18.37.228.https > radiant.47001: UDP, length 692
+17:25:02.475148 IP 104.18.37.228.https > radiant.47001: UDP, length 695
+17:25:02.492072 IP 104.18.37.228.https > radiant.47001: UDP, length 699
+17:25:02.510791 IP radiant.34325 > _gateway.domain: 28961+ A? events.statsigapi.net. (39)
+17:25:02.512831 IP 104.18.37.228.https > radiant.47001: UDP, length 576
+17:25:02.557459 IP _gateway.domain > radiant.34325: 28961 1/0/0 A 34.120.214.181 (55)
+17:25:02.654681 IP 104.18.37.228.https > radiant.47001: UDP, length 57
+17:25:02.686399 IP radiant.50632 > _gateway.domain: 21833+ Type65? events.statsigapi.net. (39)
+17:25:02.747095 IP radiant.47001 > 104.18.37.228.https: UDP, length 46
+17:25:02.747142 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.747156 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.747193 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.747227 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.747264 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.747298 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.747332 IP radiant.47001 > 104.18.37.228.https: UDP, length 48
+17:25:02.747367 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.747401 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.748372 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:02.750113 IP _gateway.domain > radiant.50632: 21833 0/1/0 (124)
+17:25:02.752147 IP radiant.47678 > 181.214.120.34.bc.googleusercontent.com.https: UDP, length 1250
+17:25:02.800649 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.800716 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.800773 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.800848 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.800901 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.801519 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.802469 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.804125 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.804232 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:02.804251 IP 104.18.37.228.https > radiant.47001: UDP, length 462
+17:25:02.804638 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.804918 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.818953 IP 104.18.37.228.https > radiant.47001: UDP, length 755
+17:25:02.842344 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.47678: UDP, length 1250
+17:25:02.851225 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:02.859022 IP radiant.57372 > 181.214.120.34.bc.googleusercontent.com.https: Flags [S], seq 156908557, win 64240, options [mss 1460,sackOK,TS val 730089591 ecr 0,nop,wscale 7], length 0
+17:25:02.901518 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.57372: Flags [S.], seq 707151934, ack 156908558, win 65535, options [mss 1400,sackOK,TS val 2108684910 ecr 730089591,nop,wscale 10], length 0
+17:25:02.901656 IP radiant.57372 > 181.214.120.34.bc.googleusercontent.com.https: Flags [.], ack 1, win 502, options [nop,nop,TS val 730089634 ecr 2108684910], length 0
+17:25:02.902608 IP radiant.57372 > 181.214.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1:596, ack 1, win 502, options [nop,nop,TS val 730089635 ecr 2108684910], length 595
+17:25:02.920759 IP 104.18.37.228.https > radiant.47001: UDP, length 760
+17:25:02.921594 IP 104.18.37.228.https > radiant.47001: UDP, length 764
+17:25:02.921983 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.930177 IP 104.18.37.228.https > radiant.47001: UDP, length 768
+17:25:02.943191 IP 104.18.37.228.https > radiant.47001: UDP, length 771
+17:25:02.943564 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.47678: UDP, length 1250
+17:25:02.943769 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:02.946117 IP radiant.47678 > 181.214.120.34.bc.googleusercontent.com.https: UDP, length 1250
+17:25:02.947996 IP radiant.47678 > 181.214.120.34.bc.googleusercontent.com.https: UDP, length 161
+17:25:02.949189 IP radiant.47678 > 181.214.120.34.bc.googleusercontent.com.https: UDP, length 937
+17:25:02.998372 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.47678: UDP, length 1250
+17:25:02.998448 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.47678: UDP, length 120
+17:25:02.999091 IP radiant.47678 > 181.214.120.34.bc.googleusercontent.com.https: UDP, length 32
+17:25:03.001737 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.47678: UDP, length 27
+17:25:03.004056 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.57372: Flags [.], ack 596, win 66, options [nop,nop,TS val 2108685018 ecr 730089635], length 0
+17:25:03.034706 IP radiant.47678 > 181.214.120.34.bc.googleusercontent.com.https: UDP, length 32
+17:25:03.091147 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.57372: Flags [P.], seq 1:213, ack 596, win 66, options [nop,nop,TS val 2108685110 ecr 730089635], length 212
+17:25:03.091229 IP radiant.57372 > 181.214.120.34.bc.googleusercontent.com.https: Flags [.], ack 213, win 501, options [nop,nop,TS val 730089823 ecr 2108685110], length 0
+17:25:03.092453 IP radiant.57372 > 181.214.120.34.bc.googleusercontent.com.https: Flags [P.], seq 596:660, ack 213, win 501, options [nop,nop,TS val 730089825 ecr 2108685110], length 64
+17:25:03.148131 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.47678: UDP, length 402
+17:25:03.148818 IP radiant.47678 > 181.214.120.34.bc.googleusercontent.com.https: UDP, length 35
+17:25:03.151651 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.57372: Flags [P.], seq 213:799, ack 660, win 66, options [nop,nop,TS val 2108685163 ecr 730089825], length 586
+17:25:03.153602 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.57372: Flags [.], ack 660, win 66, options [nop,nop,TS val 2108685157 ecr 730089825], length 0
+17:25:03.153688 IP radiant.57372 > 181.214.120.34.bc.googleusercontent.com.https: Flags [.], ack 799, win 501, options [nop,nop,TS val 730089886 ecr 2108685163], length 0
+17:25:03.179143 IP 104.18.37.228.https > radiant.47001: UDP, length 775
+17:25:03.189170 IP 104.18.37.228.https > radiant.47001: UDP, length 779
+17:25:03.189619 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:03.200274 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:03.204145 IP 104.18.37.228.https > radiant.47001: UDP, length 367
+17:25:03.204584 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:03.207866 IP 104.18.37.228.https > radiant.47001: UDP, length 795
+17:25:03.211394 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:03.211508 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:03.211667 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:03.212406 IP radiant.47001 > 104.18.37.228.https: UDP, length 43
+17:25:03.212770 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.215025 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:03.215092 IP 104.18.37.228.https > radiant.47001: UDP, length 58
+17:25:03.215550 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.220103 IP 104.18.37.228.https > radiant.47001: UDP, length 835
+17:25:03.224988 IP 181.214.120.34.bc.googleusercontent.com.https > radiant.47678: UDP, length 24
+17:25:03.227673 IP 104.18.37.228.https > radiant.47001: UDP, length 843
+17:25:03.228103 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.265174 IP 104.18.37.228.https > radiant.47001: UDP, length 848
+17:25:03.294618 IP 104.18.37.228.https > radiant.47001: UDP, length 850
+17:25:03.295161 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.298781 IP 104.18.37.228.https > radiant.47001: UDP, length 856
+17:25:03.317218 IP 104.18.37.228.https > radiant.47001: UDP, length 858
+17:25:03.317628 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.350366 IP 104.18.37.228.https > radiant.47001: UDP, length 863
+17:25:03.367277 IP 104.18.37.228.https > radiant.47001: UDP, length 867
+17:25:03.367739 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.385192 IP 104.18.37.228.https > radiant.47001: UDP, length 871
+17:25:03.419152 IP radiant.47001 > 104.18.37.228.https: UDP, length 50
+17:25:03.420781 IP 104.18.37.228.https > radiant.47001: UDP, length 873
+17:25:03.454569 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:03.483686 IP 104.18.37.228.https > radiant.47001: UDP, length 23
+17:25:03.489093 IP 104.18.37.228.https > radiant.47001: UDP, length 874
+17:25:03.522805 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:03.532198 IP 104.18.37.228.https > radiant.47001: UDP, length 878
+17:25:03.552060 IP 104.18.37.228.https > radiant.47001: UDP, length 879
+17:25:03.552513 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.575151 IP 104.18.37.228.https > radiant.47001: UDP, length 881
+17:25:03.597796 IP 104.18.37.228.https > radiant.47001: UDP, length 883
+17:25:03.598215 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.611156 IP 104.18.37.228.https > radiant.47001: UDP, length 886
+17:25:03.642984 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:03.652154 IP 104.18.37.228.https > radiant.47001: UDP, length 891
+17:25:03.671141 IP 104.18.37.228.https > radiant.47001: UDP, length 893
+17:25:03.671599 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.697127 IP 104.18.37.228.https > radiant.47001: UDP, length 897
+17:25:03.731230 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:03.739668 IP 104.18.37.228.https > radiant.47001: UDP, length 901
+17:25:03.753650 IP 104.18.37.228.https > radiant.47001: UDP, length 906
+17:25:03.754120 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.785050 IP 104.18.37.228.https > radiant.47001: UDP, length 912
+17:25:03.811464 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:03.815193 IP 104.18.37.228.https > radiant.47001: UDP, length 922
+17:25:03.826252 IP 104.18.37.228.https > radiant.47001: UDP, length 926
+17:25:03.826748 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.935201 IP 104.18.37.228.https > radiant.47001: UDP, length 937
+17:25:03.946427 IP 104.18.37.228.https > radiant.47001: UDP, length 945
+17:25:03.947068 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.955281 IP 104.18.37.228.https > radiant.47001: UDP, length 948
+17:25:03.958707 IP 104.18.37.228.https > radiant.47001: UDP, length 952
+17:25:03.959156 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.962308 IP 104.18.37.228.https > radiant.47001: UDP, length 961
+17:25:03.967085 IP 104.18.37.228.https > radiant.47001: UDP, length 966
+17:25:03.967507 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:03.996804 IP 104.18.37.228.https > radiant.47001: UDP, length 967
+17:25:04.013958 IP 104.18.37.228.https > radiant.47001: UDP, length 968
+17:25:04.014455 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:04.033796 IP 104.18.37.228.https > radiant.47001: UDP, length 971
+17:25:04.050118 IP 104.18.37.228.https > radiant.47001: UDP, length 975
+17:25:04.050613 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:04.088713 IP 104.18.37.228.https > radiant.47001: UDP, length 979
+17:25:04.107681 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.117079 IP 104.18.37.228.https > radiant.47001: UDP, length 983
+17:25:04.129095 IP 104.18.37.228.https > radiant.47001: UDP, length 986
+17:25:04.129545 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:04.137223 IP 104.18.37.228.https > radiant.47001: UDP, length 989
+17:25:04.155073 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.182138 IP 104.18.37.228.https > radiant.47001: UDP, length 994
+17:25:04.192140 IP 104.18.37.228.https > radiant.47001: UDP, length 998
+17:25:04.194980 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.209776 IP 104.18.37.228.https > radiant.47001: UDP, length 1002
+17:25:04.235590 IP radiant.47001 > 104.18.37.228.https: UDP, length 50
+17:25:04.260186 IP 104.18.37.228.https > radiant.47001: UDP, length 1003
+17:25:04.275193 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.283141 IP 104.18.37.228.https > radiant.47001: UDP, length 1009
+17:25:04.295368 IP 104.18.37.228.https > radiant.47001: UDP, length 1011
+17:25:04.295437 IP 104.18.37.228.https > radiant.47001: UDP, length 24
+17:25:04.295812 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:04.328166 IP 104.18.37.228.https > radiant.47001: UDP, length 1015
+17:25:04.345132 IP 104.18.37.228.https > radiant.47001: UDP, length 1017
+17:25:04.345611 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:04.359121 IP 104.18.37.228.https > radiant.47001: UDP, length 1018
+17:25:04.379067 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.449168 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:04.449287 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:04.453799 IP 104.18.37.228.https > radiant.47001: UDP, length 674
+17:25:04.466699 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.479229 IP 104.18.37.228.https > radiant.47001: UDP, length 1040
+17:25:04.492118 IP 104.18.37.228.https > radiant.47001: UDP, length 1044
+17:25:04.492555 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:04.516864 IP 104.18.37.228.https > radiant.47001: UDP, length 1048
+17:25:04.530761 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.535356 IP 104.18.37.228.https > radiant.47001: UDP, length 1051
+17:25:04.555022 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.559816 IP 104.18.37.228.https > radiant.47001: UDP, length 1059
+17:25:04.578670 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.608271 IP 104.18.37.228.https > radiant.47001: UDP, length 1060
+17:25:04.618132 IP 104.18.37.228.https > radiant.47001: UDP, length 1065
+17:25:04.629875 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.644003 IP 104.18.37.228.https > radiant.47001: UDP, length 1074
+17:25:04.658850 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.671109 IP 104.18.37.228.https > radiant.47001: UDP, length 1083
+17:25:04.685244 IP 104.18.37.228.https > radiant.47001: UDP, length 1089
+17:25:04.685692 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:04.725062 IP 104.18.37.228.https > radiant.47001: UDP, length 1092
+17:25:04.738984 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.748183 IP 104.18.37.228.https > radiant.47001: UDP, length 1102
+17:25:04.763120 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.768555 IP 104.18.37.228.https > radiant.47001: UDP, length 1109
+17:25:04.787344 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.790527 IP 104.18.37.228.https > radiant.47001: UDP, length 1112
+17:25:04.811414 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.847587 IP 104.18.37.228.https > radiant.47001: UDP, length 1116
+17:25:04.867628 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.885229 IP 104.18.37.228.https > radiant.47001: UDP, length 1120
+17:25:04.899110 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:04.900839 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:04.900903 IP 104.18.37.228.https > radiant.47001: UDP, length 1053
+17:25:04.913144 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.042239 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.042373 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.052079 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.052191 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.052342 IP 104.18.37.228.https > radiant.47001: UDP, length 910
+17:25:05.055360 IP radiant.47001 > 104.18.37.228.https: UDP, length 49
+17:25:05.097979 IP 104.18.37.228.https > radiant.47001: UDP, length 24
+17:25:05.159263 IP 104.18.37.228.https > radiant.47001: UDP, length 1168
+17:25:05.170613 IP 104.18.37.228.https > radiant.47001: UDP, length 1173
+17:25:05.171731 IP 104.18.37.228.https > radiant.47001: UDP, length 1178
+17:25:05.175333 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.175441 IP 104.18.37.228.https > radiant.47001: UDP, length 1167
+17:25:05.179869 IP 104.18.37.228.https > radiant.47001: UDP, length 1190
+17:25:05.179932 IP 104.18.37.228.https > radiant.47001: UDP, length 1194
+17:25:05.200153 IP 104.18.37.228.https > radiant.47001: UDP, length 1196
+17:25:05.273057 IP radiant.52144 > _gateway.domain: 8290+ A? rum.browser-intake-datadoghq.com. (50)
+17:25:05.289153 IP 104.18.37.228.https > radiant.47001: UDP, length 1198
+17:25:05.301138 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.301201 IP 104.18.37.228.https > radiant.47001: UDP, length 28
+17:25:05.314024 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.314081 IP 104.18.37.228.https > radiant.47001: UDP, length 32
+17:25:05.314210 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.314329 IP 104.18.37.228.https > radiant.47001: UDP, length 37
+17:25:05.338513 IP _gateway.domain > radiant.52144: 8290 7/0/0 CNAME alb-logs-http-rum-pub-s1-2063062832.us-east-1.elb.amazonaws.com., A 3.233.159.145, A 3.233.159.178, A 3.233.159.173, A 3.233.159.169, A 3.233.159.170, A 3.233.159.168 (220)
+17:25:05.342140 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.342199 IP 104.18.37.228.https > radiant.47001: UDP, length 45
+17:25:05.345923 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.345984 IP 104.18.37.228.https > radiant.47001: UDP, length 56
+17:25:05.368321 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.368381 IP 104.18.37.228.https > radiant.47001: UDP, length 62
+17:25:05.410716 IP radiant.50237 > _gateway.domain: 37233+ Type65? alb-logs-http-rum-pub-s1-2063062832.us-east-1.elb.amazonaws.com. (81)
+17:25:05.413571 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.413641 IP 104.18.37.228.https > radiant.47001: UDP, length 66
+17:25:05.430286 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.430353 IP 104.18.37.228.https > radiant.47001: UDP, length 75
+17:25:05.440654 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:05.441165 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:05.456884 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.461793 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.461868 IP 104.18.37.228.https > radiant.47001: UDP, length 83
+17:25:05.462429 IP _gateway.domain > radiant.50237: 37233 0/1/0 (163)
+17:25:05.463985 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [S], seq 1131689963, win 64240, options [mss 1460,sackOK,TS val 324312757 ecr 0,nop,wscale 7], length 0
+17:25:05.489129 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.555710 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.555945 IP 104.18.37.228.https > radiant.47001: UDP, length 87
+17:25:05.555962 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [S.], seq 781268514, ack 1131689964, win 65535, options [mss 1400,sackOK,TS val 2666003086 ecr 324312757,nop,wscale 10], length 0
+17:25:05.556055 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], ack 1, win 502, options [nop,nop,TS val 324312849 ecr 2666003086], length 0
+17:25:05.556119 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.556138 IP 104.18.37.228.https > radiant.47001: UDP, length 92
+17:25:05.556152 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.556168 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.556183 IP 104.18.37.228.https > radiant.47001: UDP, length 169
+17:25:05.557604 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 324312851 ecr 2666003086], length 517
+17:25:05.571709 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.581730 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.587132 IP 104.18.37.228.https > radiant.47001: UDP, length 102
+17:25:05.587506 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.587531 IP 104.18.37.228.https > radiant.47001: UDP, length 111
+17:25:05.587546 ARP, Request who-has radiant tell _gateway, length 28
+17:25:05.587577 ARP, Reply radiant is-at 68:14:01:02:bd:27 (oui Unknown), length 28
+17:25:05.594868 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.609329 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.612842 IP 104.18.37.228.https > radiant.47001: UDP, length 119
+17:25:05.626816 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.653544 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.653611 IP 104.18.37.228.https > radiant.47001: UDP, length 124
+17:25:05.657179 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.657248 IP 104.18.37.228.https > radiant.47001: UDP, length 127
+17:25:05.663972 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 518, win 66, options [nop,nop,TS val 2666003239 ecr 324312851], length 0
+17:25:05.667249 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.691236 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.694821 IP 104.18.37.228.https > radiant.47001: UDP, length 133
+17:25:05.707073 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.737375 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.740824 IP 104.18.37.228.https > radiant.47001: UDP, length 136
+17:25:05.752208 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.752277 IP 104.18.37.228.https > radiant.47001: UDP, length 140
+17:25:05.752792 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:05.768280 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.768365 IP 104.18.37.228.https > radiant.47001: UDP, length 147
+17:25:05.768770 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:05.786644 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.788861 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.788930 IP 104.18.37.228.https > radiant.47001: UDP, length 150
+17:25:05.802865 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.822336 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.825765 IP 104.18.37.228.https > radiant.47001: UDP, length 153
+17:25:05.833232 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.833305 IP 104.18.37.228.https > radiant.47001: UDP, length 157
+17:25:05.833710 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:05.851309 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.857492 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.857622 IP 104.18.37.228.https > radiant.47001: UDP, length 163
+17:25:05.875512 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.883180 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.883308 IP 104.18.37.228.https > radiant.47001: UDP, length 169
+17:25:05.898769 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.911536 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.911609 IP 104.18.37.228.https > radiant.47001: UDP, length 173
+17:25:05.923204 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.926607 IP 104.18.37.228.https > radiant.47001: UDP, length 181
+17:25:05.927031 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:05.939312 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.942689 IP 104.18.37.228.https > radiant.47001: UDP, length 185
+17:25:05.955126 IP radiant.47001 > 104.18.37.228.https: UDP, length 46
+17:25:05.972271 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.972346 IP 104.18.37.228.https > radiant.47001: UDP, length 189
+17:25:05.988179 IP radiant.47001 > 104.18.37.228.https: UDP, length 51
+17:25:05.989832 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:05.989896 IP 104.18.37.228.https > radiant.47001: UDP, length 194
+17:25:05.993775 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 1:1369, ack 518, win 66, options [nop,nop,TS val 2666003572 ecr 324312851], length 1368
+17:25:05.993917 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], ack 1369, win 501, options [nop,nop,TS val 324313287 ecr 2666003572], length 0
+17:25:05.994015 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 1369:2737, ack 518, win 66, options [nop,nop,TS val 2666003572 ecr 324312851], length 1368
+17:25:05.994046 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], ack 2737, win 494, options [nop,nop,TS val 324313287 ecr 2666003572], length 0
+17:25:05.994088 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 2737:3517, ack 518, win 66, options [nop,nop,TS val 2666003573 ecr 324312851], length 780
+17:25:05.994112 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], ack 3517, win 488, options [nop,nop,TS val 324313287 ecr 2666003573], length 0
+17:25:05.996149 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 518:644, ack 3517, win 501, options [nop,nop,TS val 324313289 ecr 2666003573], length 126
+17:25:05.996809 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 644:749, ack 3517, win 501, options [nop,nop,TS val 324313290 ecr 2666003573], length 105
+17:25:05.997391 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 749:1392, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 643
+17:25:05.997648 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 1392:2780, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 1388
+17:25:05.997665 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 2780:4168, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 1388
+17:25:05.997757 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 4168:5556, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 1388
+17:25:05.997770 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 5556:6944, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 1388
+17:25:05.997904 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 6944:8332, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 1388
+17:25:05.997916 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 8332:9720, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 1388
+17:25:05.997998 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 9720:11108, ack 3517, win 501, options [nop,nop,TS val 324313291 ecr 2666003573], length 1388
+17:25:06.003434 IP radiant.47001 > 104.18.37.228.https: UDP, length 46
+17:25:06.032160 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.032233 IP 104.18.37.228.https > radiant.47001: UDP, length 200
+17:25:06.042984 IP 104.18.37.228.https > radiant.47001: UDP, length 24
+17:25:06.043764 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 749, win 66, options [nop,nop,TS val 2666003617 ecr 324313290], length 0
+17:25:06.043901 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 11108:12496, ack 3517, win 501, options [nop,nop,TS val 324313337 ecr 2666003617], length 1388
+17:25:06.043935 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 12496:13884, ack 3517, win 501, options [nop,nop,TS val 324313337 ecr 2666003617], length 1388
+17:25:06.044004 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 13884:15272, ack 3517, win 501, options [nop,nop,TS val 324313337 ecr 2666003617], length 1388
+17:25:06.044018 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 15272:16660, ack 3517, win 501, options [nop,nop,TS val 324313337 ecr 2666003617], length 1388
+17:25:06.044088 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 1392, win 67, options [nop,nop,TS val 2666003617 ecr 324313291], length 0
+17:25:06.044120 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 644, win 66, options [nop,nop,TS val 2666003617 ecr 324313289], length 0
+17:25:06.044141 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 2780, win 70, options [nop,nop,TS val 2666003618 ecr 324313291], length 0
+17:25:06.044164 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 4168, win 72, options [nop,nop,TS val 2666003619 ecr 324313291], length 0
+17:25:06.044187 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 5556, win 75, options [nop,nop,TS val 2666003620 ecr 324313291], length 0
+17:25:06.044208 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 6944, win 78, options [nop,nop,TS val 2666003621 ecr 324313291], length 0
+17:25:06.044232 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 8332, win 81, options [nop,nop,TS val 2666003622 ecr 324313291], length 0
+17:25:06.044254 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 9720, win 84, options [nop,nop,TS val 2666003623 ecr 324313291], length 0
+17:25:06.044313 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 16660:17357, ack 3517, win 501, options [nop,nop,TS val 324313338 ecr 2666003623], length 697
+17:25:06.044892 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.056517 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 11108, win 87, options [nop,nop,TS val 2666003626 ecr 324313291], length 0
+17:25:06.066143 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.066238 IP 104.18.37.228.https > radiant.47001: UDP, length 205
+17:25:06.066256 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.066303 IP 104.18.37.228.https > radiant.47001: UDP, length 210
+17:25:06.083625 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.103771 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 12496, win 89, options [nop,nop,TS val 2666003679 ecr 324313337], length 0
+17:25:06.103851 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 13884, win 92, options [nop,nop,TS val 2666003680 ecr 324313337], length 0
+17:25:06.103875 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 15272, win 95, options [nop,nop,TS val 2666003682 ecr 324313337], length 0
+17:25:06.111405 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.111487 IP 104.18.37.228.https > radiant.47001: UDP, length 215
+17:25:06.113743 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 16660, win 98, options [nop,nop,TS val 2666003684 ecr 324313337], length 0
+17:25:06.113822 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 17357, win 101, options [nop,nop,TS val 2666003684 ecr 324313338], length 0
+17:25:06.128268 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.128343 IP 104.18.37.228.https > radiant.47001: UDP, length 219
+17:25:06.128766 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.143151 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.143309 IP 104.18.37.228.https > radiant.47001: UDP, length 224
+17:25:06.143691 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.163367 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.185247 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.185320 IP 104.18.37.228.https > radiant.47001: UDP, length 228
+17:25:06.194645 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.197957 IP 104.18.37.228.https > radiant.47001: UDP, length 232
+17:25:06.198478 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.237194 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.237265 IP 104.18.37.228.https > radiant.47001: UDP, length 233
+17:25:06.251167 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.256257 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.256335 IP 104.18.37.228.https > radiant.47001: UDP, length 237
+17:25:06.275231 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.279302 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.279417 IP 104.18.37.228.https > radiant.47001: UDP, length 246
+17:25:06.279432 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 3517:3688, ack 17357, win 101, options [nop,nop,TS val 2666003859 ecr 324313338], length 171
+17:25:06.279611 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 3688:3766, ack 17357, win 101, options [nop,nop,TS val 2666003859 ecr 324313338], length 78
+17:25:06.280032 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], ack 3766, win 501, options [nop,nop,TS val 324313573 ecr 2666003859], length 0
+17:25:06.280808 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 17357:17395, ack 3766, win 501, options [nop,nop,TS val 324313574 ecr 2666003859], length 38
+17:25:06.299367 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.325388 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.325462 IP 104.18.37.228.https > radiant.47001: UDP, length 254
+17:25:06.328981 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.332447 IP 104.18.37.228.https > radiant.47001: UDP, length 259
+17:25:06.333650 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 17395, win 101, options [nop,nop,TS val 2666003910 ecr 324313574], length 0
+17:25:06.339263 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.351304 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.354836 IP 104.18.37.228.https > radiant.47001: UDP, length 264
+17:25:06.362664 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.369267 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.372681 IP 104.18.37.228.https > radiant.47001: UDP, length 270
+17:25:06.387560 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.423347 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.426636 IP 104.18.37.228.https > radiant.47001: UDP, length 278
+17:25:06.432248 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.435116 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.435753 IP 104.18.37.228.https > radiant.47001: UDP, length 281
+17:25:06.452205 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.454399 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.454467 IP 104.18.37.228.https > radiant.47001: UDP, length 283
+17:25:06.467801 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.486233 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.486329 IP 104.18.37.228.https > radiant.47001: UDP, length 291
+17:25:06.499225 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.521205 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.524821 IP 104.18.37.228.https > radiant.47001: UDP, length 297
+17:25:06.531175 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.531238 IP 104.18.37.228.https > radiant.47001: UDP, length 300
+17:25:06.537178 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.537250 IP 104.18.37.228.https > radiant.47001: UDP, length 302
+17:25:06.537604 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.555645 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.572265 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.575856 IP 104.18.37.228.https > radiant.47001: UDP, length 306
+17:25:06.576018 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 3766:4091, ack 17395, win 101, options [nop,nop,TS val 2666004152 ecr 324313574], length 325
+17:25:06.576112 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 4091:4129, ack 17395, win 101, options [nop,nop,TS val 2666004152 ecr 324313574], length 38
+17:25:06.576648 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], ack 4129, win 501, options [nop,nop,TS val 324313870 ecr 2666004152], length 0
+17:25:06.587295 IP radiant.47001 > 104.18.37.228.https: UDP, length 50
+17:25:06.597268 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.600619 IP 104.18.37.228.https > radiant.47001: UDP, length 311
+17:25:06.611394 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.620256 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.623703 IP 104.18.37.228.https > radiant.47001: UDP, length 315
+17:25:06.627292 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.627362 IP 104.18.37.228.https > radiant.47001: UDP, length 318
+17:25:06.631747 IP 104.18.37.228.https > radiant.47001: UDP, length 25
+17:25:06.632187 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.674044 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.674114 IP 104.18.37.228.https > radiant.47001: UDP, length 319
+17:25:06.686229 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.686727 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.689801 IP 104.18.37.228.https > radiant.47001: UDP, length 320
+17:25:06.706821 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.723205 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.726606 IP 104.18.37.228.https > radiant.47001: UDP, length 327
+17:25:06.738738 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.750144 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.750208 IP 104.18.37.228.https > radiant.47001: UDP, length 330
+17:25:06.763054 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.776346 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.776419 IP 104.18.37.228.https > radiant.47001: UDP, length 335
+17:25:06.795358 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.800313 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.803761 IP 104.18.37.228.https > radiant.47001: UDP, length 343
+17:25:06.819520 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.821984 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.822051 IP 104.18.37.228.https > radiant.47001: UDP, length 346
+17:25:06.834916 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.846393 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.846460 IP 104.18.37.228.https > radiant.47001: UDP, length 348
+17:25:06.859329 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.867209 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.870611 IP 104.18.37.228.https > radiant.47001: UDP, length 353
+17:25:06.883448 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.887267 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.890649 IP 104.18.37.228.https > radiant.47001: UDP, length 354
+17:25:06.907524 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.911442 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.914073 IP 104.18.37.228.https > radiant.47001: UDP, length 359
+17:25:06.931338 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.935370 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.938788 IP 104.18.37.228.https > radiant.47001: UDP, length 362
+17:25:06.953093 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.953547 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:06.956600 IP 104.18.37.228.https > radiant.47001: UDP, length 368
+17:25:06.970609 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:06.983155 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:06.983312 IP 104.18.37.228.https > radiant.47001: UDP, length 371
+17:25:06.995116 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.024190 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.024270 IP 104.18.37.228.https > radiant.47001: UDP, length 374
+17:25:07.036295 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.036369 IP 104.18.37.228.https > radiant.47001: UDP, length 378
+17:25:07.036783 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:07.050558 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.057383 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.057461 IP 104.18.37.228.https > radiant.47001: UDP, length 384
+17:25:07.075382 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.105445 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.108750 IP 104.18.37.228.https > radiant.47001: UDP, length 390
+17:25:07.112136 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.116186 IP 104.18.37.228.https > radiant.47001: UDP, length 394
+17:25:07.116678 IP radiant.47001 > 104.18.37.228.https: UDP, length 49
+17:25:07.136411 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.139751 IP 104.18.37.228.https > radiant.47001: UDP, length 402
+17:25:07.144708 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 17395:17707, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 312
+17:25:07.145105 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 17707:19095, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145125 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 19095:20483, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145215 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 20483:21871, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145225 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 21871:23259, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145280 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 23259:24647, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145415 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 24647:26035, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145428 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 26035:27423, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145439 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 27423:28811, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.145493 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 28811:30199, ack 4129, win 501, options [nop,nop,TS val 324314438 ecr 2666004152], length 1388
+17:25:07.158256 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.159902 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.160010 IP 104.18.37.228.https > radiant.47001: UDP, length 406
+17:25:07.178903 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.182067 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.185719 IP 104.18.37.228.https > radiant.47001: UDP, length 414
+17:25:07.185792 IP 104.18.37.228.https > radiant.47001: UDP, length 25
+17:25:07.194738 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.203953 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 17707, win 101, options [nop,nop,TS val 2666004777 ecr 324314438], length 0
+17:25:07.204075 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], seq 30199:31587, ack 4129, win 501, options [nop,nop,TS val 324314497 ecr 2666004777], length 1388
+17:25:07.204104 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 31587:32975, ack 4129, win 501, options [nop,nop,TS val 324314497 ecr 2666004777], length 1388
+17:25:07.204178 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 19095, win 100, options [nop,nop,TS val 2666004778 ecr 324314438], length 0
+17:25:07.204213 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [P.], seq 32975:34024, ack 4129, win 501, options [nop,nop,TS val 324314497 ecr 2666004778], length 1049
+17:25:07.204237 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 20483, win 99, options [nop,nop,TS val 2666004778 ecr 324314438], length 0
+17:25:07.204279 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 21871, win 98, options [nop,nop,TS val 2666004779 ecr 324314438], length 0
+17:25:07.204299 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 23259, win 97, options [nop,nop,TS val 2666004780 ecr 324314438], length 0
+17:25:07.204319 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 24647, win 96, options [nop,nop,TS val 2666004781 ecr 324314438], length 0
+17:25:07.208362 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.208439 IP 104.18.37.228.https > radiant.47001: UDP, length 415
+17:25:07.213778 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 26035, win 95, options [nop,nop,TS val 2666004782 ecr 324314438], length 0
+17:25:07.213866 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 27423, win 94, options [nop,nop,TS val 2666004783 ecr 324314438], length 0
+17:25:07.213888 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 28811, win 93, options [nop,nop,TS val 2666004784 ecr 324314438], length 0
+17:25:07.213909 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 30199, win 92, options [nop,nop,TS val 2666004785 ecr 324314438], length 0
+17:25:07.219788 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.242212 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.242311 IP 104.18.37.228.https > radiant.47001: UDP, length 419
+17:25:07.250146 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:07.250223 IP 104.18.37.228.https > radiant.47001: UDP, length 423
+17:25:07.259041 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:07.263626 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 31587, win 91, options [nop,nop,TS val 2666004837 ecr 324314497], length 0
+17:25:07.263709 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 32975, win 90, options [nop,nop,TS val 2666004838 ecr 324314497], length 0
+17:25:07.273468 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [.], ack 34024, win 89, options [nop,nop,TS val 2666004847 ecr 324314497], length 0
+17:25:07.575157 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 4129:4453, ack 34024, win 89, options [nop,nop,TS val 2666005137 ecr 324314497], length 324
+17:25:07.575253 IP ec2-3-233-159-145.compute-1.amazonaws.com.https > radiant.53240: Flags [P.], seq 4453:4491, ack 34024, win 89, options [nop,nop,TS val 2666005137 ecr 324314497], length 38
+17:25:07.575434 IP radiant.53240 > ec2-3-233-159-145.compute-1.amazonaws.com.https: Flags [.], ack 4491, win 501, options [nop,nop,TS val 324314869 ecr 2666005137], length 0
+17:25:08.167367 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.167443 IP 104.18.37.228.https > radiant.47001: UDP, length 429
+17:25:08.175274 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.179023 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.179198 IP 104.18.37.228.https > radiant.47001: UDP, length 848
+17:25:08.179225 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.179255 IP 104.18.37.228.https > radiant.47001: UDP, length 447
+17:25:08.179384 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:08.182502 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.185914 IP 104.18.37.228.https > radiant.47001: UDP, length 455
+17:25:08.191171 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.191716 IP radiant.47001 > 104.18.37.228.https: UDP, length 44
+17:25:08.194819 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.194956 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.195091 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.195171 IP 104.18.37.228.https > radiant.47001: UDP, length 160
+17:25:08.198722 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.198862 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.198967 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.199141 IP 104.18.37.228.https > radiant.47001: UDP, length 1200
+17:25:08.214544 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:08.218538 IP 104.18.37.228.https > radiant.47001: UDP, length 343
+17:25:08.235214 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:08.422121 IP 104.18.37.228.https > radiant.47001: UDP, length 290
+17:25:08.434760 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:08.438310 IP 104.18.37.228.https > radiant.47001: UDP, length 43
+17:25:08.441786 IP 104.18.37.228.https > radiant.47001: UDP, length 29
+17:25:08.451576 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:08.477204 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:08.477352 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:08.477414 IP radiant.47001 > 104.18.37.228.https: UDP, length 1250
+17:25:08.477474 IP radiant.47001 > 104.18.37.228.https: UDP, length 1165
+17:25:08.477591 IP radiant.47001 > 104.18.37.228.https: UDP, length 487
+17:25:08.539089 IP 104.18.37.228.https > radiant.47001: UDP, length 25
+17:25:08.542384 IP 104.18.37.228.https > radiant.47001: UDP, length 26
+17:25:08.549798 IP 104.18.37.228.https > radiant.47001: UDP, length 25
+17:25:09.056783 IP 104.18.37.228.https > radiant.47001: UDP, length 570
+17:25:09.082945 IP radiant.47001 > 104.18.37.228.https: UDP, length 45
+17:25:12.923222 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [P.], seq 210:280, ack 217, win 501, options [nop,nop,TS val 3388333717 ecr 914331184], length 70
+17:25:13.059455 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [.], ack 280, win 69, options [nop,nop,TS val 914354016 ecr 3388333717], length 0
+17:25:13.470959 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [P.], seq 217:289, ack 280, win 69, options [nop,nop,TS val 914354193 ecr 3388333717], length 72
+17:25:13.471101 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [.], ack 289, win 501, options [nop,nop,TS val 3388334265 ecr 914354193], length 0
+17:25:13.471189 IP whatsapp-cdn-shv-01-mba1.fbcdn.net.https > radiant.41454: Flags [P.], seq 217:289, ack 280, win 69, options [nop,nop,TS val 914354492 ecr 3388333717], length 72
+17:25:13.471234 IP radiant.41454 > whatsapp-cdn-shv-01-mba1.fbcdn.net.https: Flags [.], ack 289, win 501, options [nop,nop,TS val 3388334265 ecr 914354492,nop,nop,sack 1 {217:289}], length 0
