@@ -6,5 +6,4 @@ exec {'fix-too-many-open-files':
 
 exec {'restart-nginx':
   command => 'sudo service nginx restart'
-  require => Exec['fix-too-many-open-files']
 }
