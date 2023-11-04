@@ -32,3 +32,6 @@ def top_ten(subreddit):
                 print(title)
         except Exception:
             return (None)
+    else:
+        print(None)
+        return None
