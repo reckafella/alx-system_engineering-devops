@@ -1,6 +1,11 @@
 # **0x19 - Postmortem**
 
-![Giphy](./gifs/gif.gif)
+```
+<div style="text-align:center">
+  <img src="./gifs/gif.gif" alt="Person pissed off after computer fails to load page">
+</div>
+
+```
 
 ## **Web Stack Outage on October 04, 2023**
 ### **Issue Summary**
