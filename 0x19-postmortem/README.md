@@ -1,14 +1,14 @@
 # **0x19 - Postmortem**
 
-![Giphy](./gifs/giphy.gif)
+![Giphy](./gifs/gif.gif)
 
 ## **Web Stack Outage on October 04, 2023**
 ### **Issue Summary**
-**Duration:** 1 hour and 45 minutes
-**Start Time:** 2023-10-04 10:30PM GMT
-**End Time:** 2023-10-05 12:15AM GMT
-**Impact:** The user authentication service experienced a complete outage during the incident, affecting approximately 80% of users. Users were unable to log in, leading to disrupted services and potential data loss.
-**Root Cause:** The outage was caused by an unexpected spike in traffic combined with a configuration error in the load balancer.
+**Duration:** 1 hour and 45 minutes<br>
+**Start Time:** 2023-10-04 10:30PM GMT<br>
+**End Time:** 2023-10-05 12:15AM GMT<br>
+**Impact:** The user authentication service experienced a complete outage during the incident, affecting approximately 80% of users. Users were unable to log in, leading to disrupted services and potential data loss.<br>
+**Root Cause:** The outage was caused by an unexpected spike in traffic combined with a configuration error in the load balancer.<br>
 
 ## **Timeline:**
 * 10:30 PM: Issue detected through monitoring alerts indicating a sudden increase in server response times.
