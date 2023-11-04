@@ -1,6 +1,11 @@
 # **0x19 - Postmortem**
 
-->![Giphy](./gifs/gif.gif)<-
+<p align="center">
+
+  <img src="./gif/gif.gif">
+  This is an image
+
+</p>
 
 ## **Web Stack Outage on October 04, 2023**
 ### **Issue Summary**
