@@ -25,5 +25,6 @@ def top_ten(subreddit):
         for child in children[:10]:
             title = child.get('data').get('title')
             print(title)
+        return "OK"
     else:
-        print(None)
+        print("None")
