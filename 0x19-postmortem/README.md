@@ -2,7 +2,7 @@
 
 <p align="center">
 
-  <img src="gifs/gif.gif">
+  <img src="gifs/giphy.gif">
 
 </p>
 
