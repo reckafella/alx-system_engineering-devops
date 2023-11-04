@@ -17,24 +17,13 @@ def top_ten(subreddit):
     headers = {'user-agent': 'test_app'}
 
     response = requests.get(url, headers=headers, allow_redirects=False)
-    
-    if response.status_code != 200:
-        print(None)
-        return None
 
-    try:
+    if response.status_code == 200:
         data = response.json()
-
-    except ValueError as e:
-        print("JSON parse Error:\n", e)
-        return None
-
-    try:
         children = data.get('data').get('children')
 
         for child in children[:10]:
-            print('{}'.format(child.get('data').get('title')))
-
-    except Exception as e:
-        print("Error:\n", e)
-        return None
+            title = child.get('data').get('title')
+            print(title)
+    else:
+        print(None)
