@@ -13,10 +13,12 @@ def top_ten(subreddit):
     function queries the Reddit API and prints the titles of
     the first 10 host posts
     '''
-    url = 'https://api.reddit.com/r/{}/hot/.json?limit=10'.format(subreddit)
+    url = 'https://api.reddit.com/r/{}/hot.json'.format(subreddit)
     headers = {'user-agent': 'test_app'}
+    params = {'limit': 100}
 
-    response = requests.get(url, headers=headers, allow_redirects=False)
+    response = requests.get(url, params=params,
+                            headers=headers, allow_redirects=False)
 
     if response.status_code == 200:
         data = response.json()
@@ -25,6 +27,5 @@ def top_ten(subreddit):
         for child in children[:10]:
             title = child.get('data').get('title')
             print(title)
-        return "OK"
     else:
         print("None")
