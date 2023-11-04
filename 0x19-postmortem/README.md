@@ -2,8 +2,7 @@
 
 <p align="center">
 
-  <img src="./gif/gif.gif">
-  This is an image
+  <img src="gifs/gif.gif">
 
 </p>
 
