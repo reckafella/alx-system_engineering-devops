@@ -24,6 +24,7 @@ def top_ten(subreddit):
 
         for child in children[:10]:
             title = child.get('data').get('title')
-            print('{}'.format(title))
+            print(title)
     else:
         print(None)
+        return (None)
