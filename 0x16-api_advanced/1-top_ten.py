@@ -21,11 +21,21 @@ def top_ten(subreddit):
                             headers=headers, allow_redirects=False)
 
     if response.status_code == 200:
-        data = response.json()
-        children = data.get('data').get('children')
+        try:
+            data = response.json()
+        except ValueError as error:
+            print("Error parsing data into JSON format.\n{}".format(e))
+            return (None)
 
-        for child in children[:10]:
-            title = child.get('data').get('title')
-            print(title)
+        try:
+            children = data.get('data').get('children')
+
+            for child in children[:10]:
+                title = child.get('data').get('title')
+                print(title)
+        except Exception as error:
+            print("Error processing data. \n{}".format(error))
+            return (None)
     else:
-        print("None")
+        print(None)
+        return (None)
