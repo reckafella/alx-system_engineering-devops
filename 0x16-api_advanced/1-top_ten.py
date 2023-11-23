@@ -11,25 +11,21 @@ import requests
 def top_ten(subreddit):
     '''
     function queries the Reddit API and prints the titles of
-    the first 10 host posts
+    the first 10 hot posts
     '''
-    url = 'https://api.reddit.com/r/{}/hot.json'.format(subreddit)
-    headers = {'user-agent': 'test_app'}
-    params = {'limit': 10}
+    url = 'https://www.reddit.com/r/{}/hot.json?limit=10'.format(subreddit)
+    headers = {'user-agent': 'personal app'}
 
-    response = requests.get(url, params=params,
-                            headers=headers, allow_redirects=False)
+    response = requests.get(url, headers=headers, allow_redirects=False)
 
     if response.status_code != 200:
         print(None)
-        return (None)
 
     try:
         data = response.json()
 
     except ValueError as error:
-        print("Error parsing data into JSON format.\n{}".format(e))
-        return (None)
+        print(None)
 
     try:
         data = data.get('data')
@@ -40,5 +36,4 @@ def top_ten(subreddit):
             print(title)
 
     except Exception as error:
-        print("Error processing data. \n{}".format(error))
-        return (None)
+        print(None)
