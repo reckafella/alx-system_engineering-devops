@@ -23,13 +23,11 @@ def count_words(subreddit, word_list, after=None, count=[]):
     response = get(url, params=params, headers=headers, allow_redirects=False)
 
     if response.status_code != 200:
-        print(None)
         return None
 
     try:
         data = response.json()
     except Exception:
-        print(None)
         return None
 
     for title in (data['data']['children']):
